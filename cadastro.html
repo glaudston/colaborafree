@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColaboraFree</title>
+</head>
+<body>
+    <h2>Colaboradores Freelancer do dia</h2><hr>
+    <h4>Cadastrar Freelancer</h4>
+    <label for="name">nome :</label>
+    <input id="name" type="text"><br><br>
+
+    <label for="lastname">sobrenome :</label>
+    <input id="lastname" type="text"><br><br>
+
+    <label for="cpfnumber"> CPF :</label>
+    <input id="cpfnumber" type="number"><br><br>
+    
+    <button onclick="playwork()" > Registrar Jornada </button>
+
+    <hr>
+    <label for="removerfree">Finalizar Jornada do colaborador CPF:  <input id="removerfree"  type= "number"></label><br><br>
+    <button onclick="remove()"> Finalizar Jornada do colaborador </button>
+    <hr>
+    <h4>Lista de Freelance na agencia AASDU Dia DD/MM/AAAA</h4>
+    <ul id="daylist" ></ul>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
